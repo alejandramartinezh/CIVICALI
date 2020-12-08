@@ -1,0 +1,83 @@
+.home-card {
+    align-items: center;
+    height: 50vh;
+}
+
+.landing-center {
+    text-align: center;
+    align-items: center;
+}
+
+.button-container{
+    display:inline-block;
+    position:relative;
+}
+
+.button-container a{
+    position: absolute;
+    bottom:4em;
+    right:4em;
+    background-color:#f38d18;
+    border-radius:1.5em;
+    color:white;
+    text-transform:uppercase;
+    padding:1em 1.5em;
+}
+
+.Home-button-container-A{
+    position: absolute;
+    bottom:18em !important;
+    background-color:#f38d18 !important;
+    border-radius:1.5em;
+    color:white;
+    text-transform:uppercase;
+    padding:1em 1.5em;
+    width: 200px;
+}
+
+.Home-button-container-B{
+    position: absolute;
+    bottom:14em !important;
+    background-color:#ff02b3 !important;
+    border-radius:1.5em;
+    color:white;
+    text-transform:uppercase;
+    padding:1em 1.5em;
+    width: 200px;
+}
+
+.Home-button-container-C{
+    position: absolute;
+    bottom:10em !important;
+    background-color:#f38d18 !important;
+    border-radius:1.5em;
+    color:white;
+    text-transform:uppercase;
+    padding:1em 1.5em;
+    width: 200px;
+}
+
+.Ranking-button-container-C{
+    position: absolute;
+    bottom:46em !important;
+    right:11em !important;
+    background-color:#f38d18 !important;
+    border-radius:1.5em;
+    color:white;
+    text-transform:uppercase;
+    padding:1em 1.5em;
+    width: 150px;
+    height: 40px !important;
+}
+
+.Nicolas-button-container{
+    position: absolute;
+    bottom:7em !important;
+    right:3em !important;
+    background-color:#ff02b3 !important;
+    border-radius:1.5em;
+    color:white;
+    text-transform:uppercase;
+    padding:1em 1.5em;
+    width: 240px;
+}
