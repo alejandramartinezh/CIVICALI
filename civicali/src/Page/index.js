@@ -11,6 +11,7 @@ import SegundaPregunta from './SegundaPregunta';
 import TerceraPregunta from './TerceraPregunta';
 import CuartaPregunta from './CuartaPregunta';
 import QuintaPregunta from './QuintaPregunta';
+import Puntaje from './Puntaje';
 
 export {
     Landing,
@@ -26,4 +27,5 @@ export {
     TerceraPregunta,
     CuartaPregunta,
     QuintaPregunta,
+    Puntaje
 };

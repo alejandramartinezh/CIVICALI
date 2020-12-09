@@ -7,7 +7,7 @@ import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 import { Link } from 'react-router-dom';
 
-import Imagen2 from '../../images/mesa_trabajo13.png';
+import Imagen2 from '../../images/mesa_trabajo1.png';
   
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -31,17 +31,16 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
 
-function add() {
+function Mostrar() {
   var puntaje = sessionStorage.getItem("puntaje");
-  puntaje = parseFloat(puntaje) + 1;
 
-  // alert(`Su puntaje! ${puntaje}`);
+  alert(`Su puntaje! ${puntaje}`);
 
   sessionStorage.setItem("puntaje", puntaje);
 }
 
 // Main component
-function QuintaPregunta() {
+function Puntaje() {
     const classes = useStyles();
 
   return (
@@ -51,11 +50,16 @@ function QuintaPregunta() {
           <Grid item>
             <div className="button-container">
               <img src={Imagen2} className="imagesD" height="700vh"/>
-              <Button component={Link} to={ROUTES.PUNTAJE} variant="contained" color="secundary" size="small" className="levels-button-container-A">
-                Te coleas
+              <Button onClick={Mostrar} component={Link} variant="contained" color="primary" className="Home-button-container-A">
+                  Obtener puntuación
               </Button>
-              <Button onClick={add} component={Link} to={ROUTES.PUNTAJE} variant="contained" color="secundary" size="small" className="levels-button-container-B">
-                Esperas en la fila
+              <br/>
+              <Button component={Link} to={ROUTES.PERSONAJES} variant="contained" color="secundary" className="Home-button-container-B">
+                  Reintentar
+              </Button>
+              <br/>
+              <Button component={Link} to={ROUTES.HOME} variant="contained" color="secundary" className="Home-button-container-C">
+                  Ir al inicio
               </Button>
             </div>
           </Grid>
@@ -65,4 +69,4 @@ function QuintaPregunta() {
   );
 }
 
-export default QuintaPregunta;
+export default Puntaje;

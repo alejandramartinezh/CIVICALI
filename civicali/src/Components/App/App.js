@@ -20,6 +20,7 @@ import {
   TerceraPregunta,
   CuartaPregunta,
   QuintaPregunta,
+  Puntaje
 } from "../../Page";
 
 // Components
@@ -44,6 +45,7 @@ function App() {
                 <Route path={ROUTES.TERCER_NIVEL} component={TerceraPregunta} />
                 <Route path={ROUTES.CUARTO_NIVEL} component={CuartaPregunta} />
                 <Route path={ROUTES.QUINTO_NIVEL} component={QuintaPregunta} />
+                <Route path={ROUTES.PUNTAJE} component={Puntaje} />
             </Switch>
         </Router>
         <br/>

@@ -26,7 +26,7 @@
 
 .Home-button-container-A{
     position: absolute;
-    bottom:18em !important;
+    bottom:19em !important;
     background-color:#f38d18 !important;
     border-radius:1.5em;
     color:white;
@@ -37,7 +37,7 @@
 
 .Home-button-container-B{
     position: absolute;
-    bottom:14em !important;
+    bottom:14.5em !important;
     background-color:#ff02b3 !important;
     border-radius:1.5em;
     color:white;
@@ -137,4 +137,43 @@
 .Black {
     color: black;
     margin-bottom: 10px;
+}
+
+.Puntaje-button-A {
+    position: relative !important;
+    bottom:0em !important;
+    margin-top: 2px;
+    left: 0em !important;
+    border-radius:1.5em;
+    color:white;
+    text-transform:uppercase;
+    padding:1em 1.5em;
+    width: 100%;
+    font-size: 0.625rem !important;
+}
+
+.Puntaje-button-B {
+    position: relative !important;
+    bottom:0em !important;
+    margin-top: 2px;
+    left: 0em !important;
+    border-radius:1.5em;
+    color:white;
+    text-transform:uppercase;
+    padding:1em 1.5em;
+    width: 100%;
+    font-size: 0.625rem !important;
+}
+
+.Puntaje-button-C {
+    position: relative !important;
+    bottom:0em !important;
+    margin-top: 2px;
+    left: 0em !important;
+    border-radius:1.5em;
+    color:white;
+    text-transform:uppercase;
+    padding:1em 1.5em;
+    width: 100%;
+    font-size: 0.625rem !important;
 }

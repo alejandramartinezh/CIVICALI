@@ -31,6 +31,16 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+function add() {
+  sessionStorage.setItem('puntaje', 0);
+  var puntaje = sessionStorage.getItem('puntaje');
+  puntaje = parseFloat(puntaje) + 1;
+
+  // alert(`Su puntaje! ${puntaje}`);
+
+  sessionStorage.setItem("puntaje", puntaje);
+}
+
 // Main component
 function PrimeraPregunta() {
   const classes = useStyles();
@@ -42,7 +52,7 @@ function PrimeraPregunta() {
           <Grid item>
             <div className="button-container">
               <img src={Imagen2} className="imagesD" height="700vh"/>
-              <Button component={Link} to={ROUTES.SEGUNDO_NIVEL} variant="contained" color="secundary" size="small" className="levels-button-container-A">
+              <Button onClick={add} component={Link} to={ROUTES.SEGUNDO_NIVEL} variant="contained" color="secundary" size="small" className="levels-button-container-A">
                 Guardar las papitas
               </Button>
               <Button component={Link} to={ROUTES.SEGUNDO_NIVEL} variant="contained" color="secundary" size="small" className="levels-button-container-B">
