@@ -109,3 +109,32 @@
     line-height: 1 !important;
     font-size: 0.625rem !important;
 }
+
+.form-container-B {
+    position: absolute;
+    bottom:10em !important;
+    left: 1em !important;
+    background-color:#ffffff !important;
+    border-radius:1.5em;
+    color:white !important;
+    text-transform:uppercase;
+    padding:1em 1.5em;
+    width: 75% !important;
+}
+
+.form-button-container {
+    position: relative !important;
+    bottom:0em !important;
+    margin-top: 2px;
+    left: 0em !important;
+    border-radius:1.5em;
+    color:white;
+    text-transform:uppercase;
+    padding:1em 1.5em;
+    width: 100%;
+}
+
+.Black {
+    color: black;
+    margin-bottom: 10px;
+}

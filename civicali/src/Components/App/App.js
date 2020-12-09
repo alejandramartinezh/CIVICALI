@@ -45,8 +45,8 @@ function App() {
                 <Route path={ROUTES.CUARTO_NIVEL} component={CuartaPregunta} />
                 <Route path={ROUTES.QUINTO_NIVEL} component={QuintaPregunta} />
             </Switch>
-            <Footer/>
         </Router>
+        <br/>
     </div>
   );
 }

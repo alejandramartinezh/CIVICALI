@@ -10,30 +10,30 @@ import { Link } from 'react-router-dom';
 import Imagen2 from '../../images/mesa_trabajo9.png';
   
 const useStyles = makeStyles((theme) => ({
-    root: {
-      flexGrow: 1,
-      paddingTop: 10,
-      alignItems: 'center',
-    },
-    paper: {
-    },
-    imagesD: {
-      height: '80%',
-      width: '80%',
-    },
-    buttonPrin: {
-    },
-    control: {
-      padding: theme.spacing(2),
-    },
-    primary: {
-      background: 'green'
-    },
-  }));
+  root: {
+    flexGrow: 1,
+    paddingTop: 10,
+    alignItems: 'center',
+  },
+  paper: {
+  },
+  imagesD: {
+    height: '80%',
+    width: '80%',
+  },
+  buttonPrin: {
+  },
+  control: {
+    padding: theme.spacing(2),
+  },
+  primary: {
+    background: 'green'
+  },
+}));
 
 // Main component
 function PrimeraPregunta() {
-    const classes = useStyles();
+  const classes = useStyles();
 
   return (
     <Grid container className={classes.root} spacing={2}>
