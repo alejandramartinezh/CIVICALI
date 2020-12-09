@@ -46,7 +46,7 @@ function Nicolas() {
               <Button component={Link} to={ROUTES.PERSONAJES} variant="contained" color="primary" className="Ranking-button-container-C">
                 Regresar
               </Button>
-              <Button component={Link} to={ROUTES.PERSONAJES} variant="contained" color="primary" className="Nicolas-button-container">
+              <Button component={Link} to={ROUTES.PRIMER_NIVEL} variant="contained" color="primary" className="Nicolas-button-container">
                 Inicio
               </Button>
             </div>

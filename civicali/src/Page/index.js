@@ -6,6 +6,11 @@ import Tienda from './Tienda';
 import Personajes from './Personajes';
 import Nicolas from './Nicolas';
 import Diana from './Diana';
+import PrimeraPegunta from './PrimeraPregunta';
+import SegundaPregunta from './SegundaPregunta';
+import TerceraPregunta from './TerceraPregunta';
+import CuartaPregunta from './CuartaPregunta';
+import QuintaPregunta from './QuintaPregunta';
 
 export {
     Landing,
@@ -15,5 +20,10 @@ export {
     Tienda,
     Personajes,
     Nicolas,
-    Diana
+    Diana,
+    PrimeraPegunta,
+    SegundaPregunta,
+    TerceraPregunta,
+    CuartaPregunta,
+    QuintaPregunta,
 };

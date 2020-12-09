@@ -14,7 +14,12 @@ import {
   Tienda,
   Personajes,
   Nicolas,
-  Diana
+  Diana,
+  PrimeraPegunta,
+  SegundaPregunta,
+  TerceraPregunta,
+  CuartaPregunta,
+  QuintaPregunta,
 } from "../../Page";
 
 // Components
@@ -34,6 +39,11 @@ function App() {
                 <Route path={ROUTES.PERSONAJES} component={Personajes} />
                 <Route path={ROUTES.NICOLAS} component={Nicolas} />
                 <Route path={ROUTES.DIANA} component={Diana} />
+                <Route path={ROUTES.PRIMER_NIVEL} component={PrimeraPegunta} />
+                <Route path={ROUTES.SEGUNDO_NIVEL} component={SegundaPregunta} />
+                <Route path={ROUTES.TERCER_NIVEL} component={TerceraPregunta} />
+                <Route path={ROUTES.CUARTO_NIVEL} component={CuartaPregunta} />
+                <Route path={ROUTES.QUINTO_NIVEL} component={QuintaPregunta} />
             </Switch>
             <Footer/>
         </Router>

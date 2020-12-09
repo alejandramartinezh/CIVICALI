@@ -81,3 +81,31 @@
     padding:1em 1.5em;
     width: 240px;
 }
+
+.levels-button-container-A {
+    position: absolute;
+    bottom:2em !important;
+    right: 1em !important;
+    background-color:#f38d18 !important;
+    border-radius:1.5em;
+    color:white;
+    text-transform:uppercase;
+    padding:1em 1.5em;
+    width: 140px;
+    line-height: 1 !important;
+    font-size: 0.625rem !important;
+}
+
+.levels-button-container-B {
+    position: absolute;
+    bottom:2em !important;
+    left: 1em !important;
+    background-color:#f38d18 !important;
+    border-radius:1.5em;
+    color:white;
+    text-transform:uppercase;
+    padding:1em 1.5em;
+    width: 140px;
+    line-height: 1 !important;
+    font-size: 0.625rem !important;
+}
